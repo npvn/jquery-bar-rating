@@ -1,6 +1,6 @@
 Package.describe({
   name: 'npvn:jquery-bar-rating',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'jquery-bar-rating packaged for Meteor',
   // URL to the Git repository containing the source code for this package.
@@ -13,7 +13,7 @@ Package.describe({
 Package.on_use(function(api) {
   api.add_files([
     'dist/jquery.barrating.min.js',
-    'dist/themes/fontawesome-stars.css',
+    'dist/themes/custom-stars.css',
   ], 'client');
 });
 
